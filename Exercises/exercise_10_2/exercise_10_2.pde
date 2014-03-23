@@ -13,4 +13,3 @@ image (img,0,250,350,250);
 img= loadImage ("IMG_1623.JPG");
 tint (pink);
 image (img,0,500,350,250);
-
