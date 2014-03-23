@@ -8,5 +8,5 @@ size(200, 200);
 
 
 for (int i = 20; i < 120; i += 20) {
-  line(i, 0, i,200);
+  line(i, 0, i,200); // will drawn lines at intervals of 20 until 120 is reached on the x axis
 }
