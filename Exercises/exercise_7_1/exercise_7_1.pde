@@ -1,0 +1,28 @@
+//Use beginShape() to draw a shape of your own design
+noFill();
+stroke (0);
+smooth();
+beginShape();
+vertex (40,40);
+vertex (50,50);
+vertex (100,70);
+vertex (20,70);
+vertex (20,20);
+vertex (40,40);
+endShape();
+beginShape();
+vertex (40,40);
+vertex (10,50);
+vertex (100,70);
+vertex (20,70);
+vertex (20,20);
+vertex (40,40);
+endShape();
+beginShape();
+curveVertex (40,40);
+curveVertex (50,50);
+curveVertex (100,70);
+curveVertex (20,70);
+curveVertex (20,20);
+curveVertex (40,40);
+endShape();
