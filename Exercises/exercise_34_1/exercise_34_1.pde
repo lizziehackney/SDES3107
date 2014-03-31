@@ -29,10 +29,10 @@ void setup () {
 void draw() {
   background (255);
   frame++;
-  xCoordinate+=4;
+  xCoordinate+=4;//moves 4 pixels a second
   
-  if (xCoordinate > width) {
-    xCoordinate = -40;
+  if (xCoordinate > width) {// makes the image move across the screen until it reaches the end
+    xCoordinate = -40;// restarts the image's movement from 40 pixels behind the start
   }
   
   if (frame == numFrames){
