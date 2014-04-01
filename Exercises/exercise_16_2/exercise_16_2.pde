@@ -1,7 +1,7 @@
 //Use multiple translations to reposition a series of shapes.
 size (200,200);
 rect (0,0,50,50);
-translate (0,60);
+translate (0,80);
 rect (0,0,50,50);
 translate (0,60);
 rect (0,0,50,50);
