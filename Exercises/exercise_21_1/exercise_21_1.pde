@@ -8,20 +8,15 @@ void setup() {
 }
 
 void draw() { 
-  totem (50, 14);// position of shape on screen
-  totem (10, 14);
-  totem (90, 14);
-  totem(30, 44); 
-  totem(70, 44);
+   block (50, 14);// position of shape on screen
+ block (10, 14);
+  block (0, 14);
+  block(90, 44); 
+  block(70, 44);
 }
             
-            void totem(int x, int y) {// dictates the form and fill of the shape
-              fill(255);
-              ellipse(x, y, 40, 20);
-              fill(0);
-            ellipse(x, y+25, 30, 30);
-              fill(255,0,0);
-              ellipse(x, y-16, 12, 12);
+            void block(int x, int y) {// dictates the form and fill of the shape
+          
               fill (255,255,0);
               rect (x-15,y+40, 30,60);
 }
